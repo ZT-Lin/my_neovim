@@ -10,7 +10,7 @@ return {
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
-        ensure_installed = { "lua", "java", "python","markdown","markdown_inline","vim" },
+        ensure_installed = { "lua", "java", "python","markdown","markdown_inline","vim", "prolog" },
         highlight = { enable = true },
         indent =  { enable = true },
         autotage =  { enable = true },
